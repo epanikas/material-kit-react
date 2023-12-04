@@ -40,7 +40,7 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import SimpleFooter from "examples/Footers/SimpleFooter";
 
 // Material Kit 2 React page layout routes
-import routes from "routes";
+import routes from "app/routes";
 
 // Images
 import bgImage from "assets/images/bg-sign-in-basic.jpeg";

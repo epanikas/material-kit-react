@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 import React from "react";
 import * as ReactDOMClient from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import App from "App";
+import App from "app/App";
 
 const container = document.getElementById("root");
 
@@ -28,3 +28,5 @@ root.render(
     <App />
   </BrowserRouter>
 );
+
+export default App; // reexport the module App in the end of index.js
